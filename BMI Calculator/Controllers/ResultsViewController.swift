@@ -29,7 +29,7 @@ class ResultsViewController: UIViewController {
     
 
     @IBAction func recalculatePressed(_ sender: UIButton) {
-        print (bmiValue)
+        self.dismiss(animated: true)
     }
 
     
